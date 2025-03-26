@@ -4,7 +4,8 @@
     "description": "Ini deskripsi project nya",
     "type": "module",
     "scripts": {
-      "coba": "mocha tests --recursive --timeout 5000 --reporter spec"
+      "coba": "mocha tests --recursive --timeout 5000 --reporter spec",
+      "coba-report-html": "mocha tests --recursive --timeout 5000 --reporter mocha-simple-html-reporter --reporter-options output=report.html"
     },
     "dependencies": {
       "node-fetch": "^3.3.1",
